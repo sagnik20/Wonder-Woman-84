@@ -58,3 +58,7 @@ def lassoWord( word, shiftAmount ):
 
 # Try to decode the word "terra"
 print( "Shifting terra by 13 gives: \n" + lassoWord( "terra", 13 ) )
+print( "Shifting WHY by 13 gives: \n" + lassoWord( "WHY", 13 ) )
+print( "Shifting oskza by -18 gives: \n" + lassoWord( "oskza", -18 ) )
+print( "Shifting ohupo by -1 gives: \n" + lassoWord( "ohupo", -1 ) )
+print( "Shifting ED by 25 gives: \n" + lassoWord( "ED", 25 ) )
