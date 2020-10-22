@@ -10,3 +10,7 @@ print( "I believe Diana is actually " + diana )
 def chant( phrase ):
     # Glue three copies together and print it as a message
     print( phrase + phrase + phrase )
+
+
+# Invoke the power chant on the phrase "WONDER WOMAN 1984!"
+chant( "WONDER WOMAN 1984!" )
