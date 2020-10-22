@@ -36,3 +36,22 @@ def lassoLetter( letter, shiftAmount ):
 
     # Send the decoded letter back
     return decodedLetter
+
+# Define a function to find the truth in a secret message
+# Shift the letters in a word by a specified amount to discover the hidden word
+def lassoWord( word, shiftAmount ):
+
+    # This variable is updated each time another letter is decoded
+    decodedWord = ""
+
+    # This for loop iterates through each letter in the word parameter
+    for letter in word:
+        # The lassoLetter() function is invoked with each letter and the shift amount
+        # The result (decoded letter) is stored in a variable called decodedLetter
+        decodedLetter = lassoLetter(letter, shiftAmount)
+
+        # The decodedLetter value is added to the end of the decodedWord value
+        decodedWord = decodedWord + decodedLetter
+
+    # The decodedWord is sent back to the line of code that invoked this function
+    return decodedWord
