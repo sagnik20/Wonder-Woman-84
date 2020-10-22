@@ -55,3 +55,6 @@ def lassoWord( word, shiftAmount ):
 
     # The decodedWord is sent back to the line of code that invoked this function
     return decodedWord
+
+# Try to decode the word "terra"
+print( "Shifting terra by 13 gives: \n" + lassoWord( "terra", 13 ) )
